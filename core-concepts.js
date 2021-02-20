@@ -1,6 +1,7 @@
 // variable: let, const
 let money = 50;
-money =40;
+money =60000;
+const age = 22;
 const name ='Hasib';
 
 let isGoing = true;
@@ -14,4 +15,16 @@ let isGoing = true;
  console.log(statement);
 
  //condition
- 
+ if(money>50000 && age<=25){
+       console.log('Get marred'); 
+ }else{
+     console.log('Tor Kopale biye nai');
+ }
+
+// array
+let Number= [25,22,58,33,30];
+let friendsName= ['Hasan','Rabbi','Sam'];
+let items = [{name: 'laptop', price: 500},{name:'Mobile', price: 100},{name: 'watch', price:50}];
+
+
+//
