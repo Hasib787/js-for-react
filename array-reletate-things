@@ -1,0 +1,7 @@
+const number = [22,47,48,44,88];
+const friends = ['Rafiq', 'Jabbar', 'barkat'];
+const product = [
+    {name: 'Laptop', price: 500},
+    {name: 'Mobile', price:100},
+    {name: 'watch', price:50}
+]
