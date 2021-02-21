@@ -7,10 +7,25 @@ const [x, y] = numbers;
 
 // console.log(x, y);
 
-function boxify(num1){
-    return [num1, num1+5];
+function boxify(num1) {
+    return [num1, num1 + 5];
 }
 
-const boxed = boxify(8);
-console.log(boxed);
+const [box1, box2] = boxify(8);
+// console.log(box1, box2);
+
+// Object Destructuring 
+const person = { id: 2, name: 'Hasib', money: 52, age: 25 };
+const { money } = person;
+
+// console.log(money);
+
+// Create object shortcut
+const one = 25;
+const two = 35;
+const obj = { one: one, two: two };
+const obj2 = { one, two };
+console.log(obj2);
+
+
 
