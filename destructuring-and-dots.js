@@ -25,7 +25,15 @@ const one = 25;
 const two = 35;
 const obj = { one: one, two: two };
 const obj2 = { one, two };
-console.log(obj2);
+// console.log(obj2);
+
+// array shortcuts with three dots
+
+
+const number2 = [...numbers, 51];
+console.log(number2);
+
+
 
 
 
