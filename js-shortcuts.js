@@ -1,5 +1,5 @@
 let money = 150;
-let active= false;
+let active = false;
 // let food;
 // if (money > 100) {
 //     food = 'biryani';
@@ -32,6 +32,15 @@ console.log(number);
 //convert number to string
 const number2 = 55 + '';
 console.log(number2);
+
+//default parameter 
+function add(num1, num2) {
+    num2 = num2 || 5;
+    return num1 + num2;
+}
+console.log(add(5, 15));
+
+
 
 
 
